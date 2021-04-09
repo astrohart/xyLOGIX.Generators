@@ -92,6 +92,7 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalAspects.cs" />
     <Compile Include="IFixedGeneratorTypeObject.cs" />
     <Compile Include="IGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
