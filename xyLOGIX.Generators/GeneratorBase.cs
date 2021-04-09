@@ -17,7 +17,7 @@ namespace xyLOGIX.Generators
         GeneratorBase<TInput, TOutput> : IGenerator<TInput, TOutput>
     {
         /// <summary>
-        /// A <see cref="T:MFR.Objects.Generators.Constants.GeneratorType" />
+        /// A <see cref="T:xyLOGIX.Generators.Constants.GeneratorType" />
         /// value that specifies which type of generator this object is.
         /// </summary>
         public abstract GeneratorType GeneratorType
