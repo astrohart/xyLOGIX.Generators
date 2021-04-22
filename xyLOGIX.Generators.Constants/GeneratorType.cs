@@ -10,6 +10,8 @@
         /// </summary>
         RegularExpression,
 
+
+
         /// <summary>
         /// Unknown generator type.
         /// </summary>
