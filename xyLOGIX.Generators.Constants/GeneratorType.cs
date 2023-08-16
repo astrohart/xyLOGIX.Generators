@@ -1,4 +1,4 @@
-namespace xyLOGIX.Generators.Constants
+﻿namespace xyLOGIX.Generators.Constants
 {
     /// <summary>
     /// Values that express the type of generator to be provided.
