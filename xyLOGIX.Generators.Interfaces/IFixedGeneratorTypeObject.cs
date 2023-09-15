@@ -1,22 +1,17 @@
-using xyLOGIX.Generators.Constants;
+﻿using xyLOGIX.Generators.Constants;
 
 namespace xyLOGIX.Generators.Interfaces
 {
     /// <summary>
     /// Object that provides functionality for a particular
-    /// <see
-    ///     cref="T:xyLOGIX.Generators.Constants.GeneratorType" />
-    /// value.
+    /// <see cref="T:xyLOGIX.Generators.Constants.GeneratorType" /> value.
     /// </summary>
     public interface IFixedGeneratorTypeObject
     {
         /// <summary>
-        /// A <see cref="T:xyLOGIX.Generators.Constants.GeneratorType" />
-        /// value that specifies which type of generator this object is.
+        /// A <see cref="T:xyLOGIX.Generators.Constants.GeneratorType" /> value
+        /// that specifies which type of generator this object is.
         /// </summary>
-        GeneratorType GeneratorType
-        {
-            get;
-        }
+        GeneratorType GeneratorType { get; }
     }
 }
