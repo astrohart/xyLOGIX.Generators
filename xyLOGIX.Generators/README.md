@@ -1,4 +1,4 @@
-﻿<a name='assembly'></a>
+<a name='assembly'></a>
 # xyLOGIX.Generators
 
 ## Contents
@@ -34,8 +34,8 @@ concrete `Generator` object implementations.
 
 ##### Summary
 
-A [GeneratorType](#T-xyLOGIX-Generators-Constants-GeneratorType 'xyLOGIX.Generators.Constants.GeneratorType')
-value that specifies which type of generator this object is.
+A [GeneratorType](#T-xyLOGIX-Generators-Constants-GeneratorType 'xyLOGIX.Generators.Constants.GeneratorType') value
+that specifies which type of generator this object is.
 
 <a name='M-xyLOGIX-Generators-GeneratorBase`2-Generate-`0-'></a>
 ### Generate(value) `method`
@@ -53,8 +53,8 @@ transformation.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| value | [\`0](#T-`0 '`0') | Reference to an instance of `TInput` that is
-the value to be transformed. |
+| value | [\`0](#T-`0 '`0') | Reference to an instance of `TInput`
+that is the value to be transformed. |
 
 <a name='T-xyLOGIX-Generators-Properties-Resources'></a>
 ## Resources `type`
@@ -72,8 +72,7 @@ A strongly-typed resource class, for looking up localized strings, etc.
 
 ##### Summary
 
-Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+Overrides the current thread's CurrentUICulture property for all resource lookups using this strongly typed resource class.
 
 <a name='P-xyLOGIX-Generators-Properties-Resources-ResourceManager'></a>
 ### ResourceManager `property`

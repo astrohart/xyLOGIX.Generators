@@ -1,4 +1,4 @@
-﻿<a name='assembly'></a>
+<a name='assembly'></a>
 # xyLOGIX.Generators.Interfaces
 
 ## Contents
@@ -21,16 +21,15 @@ xyLOGIX.Generators.Interfaces
 ##### Summary
 
 Object that provides functionality for a particular
-[GeneratorType](#T-xyLOGIX-Generators-Constants-GeneratorType 'xyLOGIX.Generators.Constants.GeneratorType')
-value.
+[GeneratorType](#T-xyLOGIX-Generators-Constants-GeneratorType 'xyLOGIX.Generators.Constants.GeneratorType') value.
 
 <a name='P-xyLOGIX-Generators-Interfaces-IFixedGeneratorTypeObject-GeneratorType'></a>
 ### GeneratorType `property`
 
 ##### Summary
 
-A [GeneratorType](#T-xyLOGIX-Generators-Constants-GeneratorType 'xyLOGIX.Generators.Constants.GeneratorType')
-value that specifies which type of generator this object is.
+A [GeneratorType](#T-xyLOGIX-Generators-Constants-GeneratorType 'xyLOGIX.Generators.Constants.GeneratorType') value
+that specifies which type of generator this object is.
 
 <a name='T-xyLOGIX-Generators-Interfaces-IGenerator`2'></a>
 ## IGenerator\`2 `type`
@@ -48,15 +47,16 @@ accepts inputs and transforms them into other values.
 
 | Name | Description |
 | ---- | ----------- |
-| TInput | Name of the type that is provided as input to the generator. |
+| TInput | Name of the type that is provided as input to the
+generator. |
 | TOutput | Name of the type of the output value. |
 
 ##### Remarks
 
 A `Generator` object is very much akin to a `Translator`
-object; however where they differ is that a `Translator` may
-express a one-to-one mapping from an input object's members to an output
-object's members; a `Generator` object may instead transform one
+object; however where they differ is that a `Translator` may express a
+one-to-one mapping from an input object's members to an output object's
+members; a `Generator` object may instead transform one 
 directly into another .
 
 <a name='M-xyLOGIX-Generators-Interfaces-IGenerator`2-Generate-`0-'></a>
@@ -75,8 +75,8 @@ transformation.
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
-| value | [\`0](#T-`0 '`0') | Reference to an instance of `TInput` that is
-the value to be transformed. |
+| value | [\`0](#T-`0 '`0') | Reference to an instance of `TInput`
+that is the value to be transformed. |
 
 <a name='T-xyLOGIX-Generators-Interfaces-Properties-Resources'></a>
 ## Resources `type`
@@ -94,8 +94,7 @@ A strongly-typed resource class, for looking up localized strings, etc.
 
 ##### Summary
 
-Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+Overrides the current thread's CurrentUICulture property for all resource lookups using this strongly typed resource class.
 
 <a name='P-xyLOGIX-Generators-Interfaces-Properties-Resources-ResourceManager'></a>
 ### ResourceManager `property`
