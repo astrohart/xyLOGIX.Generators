@@ -5,22 +5,20 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly:
-    AssemblyTitle("xyLOGIX Support Library for xyLOGIX.Generators.Interfaces")]
+  AssemblyTitle("xyLOGIX Support Library for xyLOGIX.Generators.Interfaces")]
 [assembly: AssemblyDescription("Provides objects and functionality for ")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("xyLOGIX, LLC")]
 [assembly:
-    AssemblyProduct(
-        "xyLOGIX Support Library for xyLOGIX.Generators.Interfaces"
-    )]
+  AssemblyProduct("xyLOGIX Support Library for xyLOGIX.Generators.Interfaces")]
 [assembly:
-    AssemblyCopyright(
-        "Copyright © 2020-23 by xyLOGIX, LLC.  All rights reserved."
-    )]
+  AssemblyCopyright(
+    "Copyright © 2020-23 by xyLOGIX, LLC.  All rights reserved."
+  )]
 [assembly:
-    AssemblyTrademark(
-        "This software is a component of xyLOGIX xyLOGIX.Generators.  xyLOGIX.Generators is a trademark of xyLOGIX, LLC.  All rights reserved, especially those granted by international treaties."
-    )]
+  AssemblyTrademark(
+    "This software is a component of xyLOGIX xyLOGIX.Generators.  xyLOGIX.Generators is a trademark of xyLOGIX, LLC.  All rights reserved, especially those granted by international treaties."
+  )]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
