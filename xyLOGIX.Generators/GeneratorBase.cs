@@ -7,8 +7,8 @@ namespace xyLOGIX.Generators
     /// Defines the events, methods, and properties that can be used by all
     /// concrete <c>Generator</c> object implementations.
     /// </summary>
-    /// <typeparam name="TInput"> Name of the type of the input value. </typeparam>
-    /// <typeparam name="TOutput"> Name of the type of the output value. </typeparam>
+    /// <typeparam name="TInput" > Name of the type of the input value. </typeparam>
+    /// <typeparam name="TOutput" > Name of the type of the output value. </typeparam>
     public abstract class
         GeneratorBase<TInput, TOutput> : IGenerator<TInput, TOutput>
     {
@@ -19,7 +19,7 @@ namespace xyLOGIX.Generators
         public abstract GeneratorType GeneratorType { get; }
 
         /// <summary> Transforms the input <paramref name="value" /> into the output value. </summary>
-        /// <param name="value">
+        /// <param name="value" >
         /// Reference to an instance of <typeparamref name="TInput" />
         /// that is the value to be transformed.
         /// </param>

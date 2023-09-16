@@ -4,11 +4,11 @@
     /// Defines the publicly-exposed methods and properties of an object that
     /// accepts inputs and transforms them into other values.
     /// </summary>
-    /// <typeparam name="TInput">
+    /// <typeparam name="TInput" >
     /// Name of the type that is provided as input to the
     /// generator.
     /// </typeparam>
-    /// <typeparam name="TOutput">Name of the type of the output value.</typeparam>
+    /// <typeparam name="TOutput" >Name of the type of the output value.</typeparam>
     /// <remarks>
     /// A <c>Generator</c> object is very much akin to a <c>Translator</c>
     /// object; however where they differ is that a <c>Translator</c> may express a
@@ -20,7 +20,7 @@
         IGenerator<in TInput, out TOutput> : IFixedGeneratorTypeObject
     {
         /// <summary> Transforms the input <paramref name="value" /> into the output value. </summary>
-        /// <param name="value">
+        /// <param name="value" >
         /// Reference to an instance of <typeparamref name="TInput" />
         /// that is the value to be transformed.
         /// </param>
