@@ -1,4 +1,4 @@
-using xyLOGIX.Generators.Constants;
+﻿using xyLOGIX.Generators.Constants;
 
 namespace xyLOGIX.Generators.Interfaces
 {

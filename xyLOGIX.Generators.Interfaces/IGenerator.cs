@@ -1,4 +1,4 @@
-namespace xyLOGIX.Generators.Interfaces
+﻿namespace xyLOGIX.Generators.Interfaces
 {
   /// <summary>
   /// Defines the publicly-exposed methods and properties of an object that
