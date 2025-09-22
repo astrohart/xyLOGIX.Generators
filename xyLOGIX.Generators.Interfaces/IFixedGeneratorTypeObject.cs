@@ -12,6 +12,6 @@ namespace xyLOGIX.Generators.Interfaces
     /// A <see cref="T:xyLOGIX.Generators.Constants.GeneratorType" /> value
     /// that specifies which type of generator this object is.
     /// </summary>
-    GeneratorType GeneratorType { get; }
+    GeneratorType GeneratorType { [DebuggerStepThrough] get; }
   }
 }
