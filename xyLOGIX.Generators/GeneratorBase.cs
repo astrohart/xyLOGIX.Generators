@@ -16,7 +16,7 @@ namespace xyLOGIX.Generators
     /// A <see cref="T:xyLOGIX.Generators.Constants.GeneratorType" /> value
     /// that specifies which type of generator this object is.
     /// </summary>
-    public abstract GeneratorType GeneratorType { get; }
+    public abstract GeneratorType GeneratorType { [DebuggerStepThrough] get; }
 
     /// <summary> Transforms the input <paramref name="value" /> into the output value. </summary>
     /// <param name="value">
