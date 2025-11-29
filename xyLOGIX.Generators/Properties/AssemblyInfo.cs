@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("xyLOGIX Support Library for xyLOGIX.Generators")]
-[assembly: AssemblyDescription("Provides objects and functionality for ")]
+[assembly: AssemblyDescription("Provides object(s) and functionality for ")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("xyLOGIX, LLC")]
 [assembly: AssemblyProduct("xyLOGIX Support Library for xyLOGIX.Generators")]
