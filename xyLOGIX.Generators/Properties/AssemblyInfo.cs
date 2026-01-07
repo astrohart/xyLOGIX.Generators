@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("xyLOGIX Support Library for xyLOGIX.Generators")]
 [assembly:
   AssemblyCopyright(
-    "Copyright © 2020-25 by xyLOGIX, LLC.  All rights reserved."
+    "Copyright © 2020-26 by xyLOGIX, LLC.  All rights reserved."
   )]
 [assembly:
   AssemblyTrademark(
